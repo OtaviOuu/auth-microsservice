@@ -1,4 +1,4 @@
-from chalice import Chalice, Blueprint
+from chalice import Chalice
 from chalicelib.views.singup import extra_routes_signup
 
 app = Chalice(app_name="auth-service")
